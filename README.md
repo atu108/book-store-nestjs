@@ -8,8 +8,8 @@
 5. Start the project:  `yarn run start:dev`
 6. Access the project at http://localhost:3000/api
 7. Login Via Admin: `email: admin@test.com password: test@123`
-8. Create logs folder and update in .env
-9. Update RabitMQ connection ulr in .env
+8. Create `logs` folder and update in .env
+9. Update `RabitMQ connection ulr` in .env
 10. Customer can access only GET BOOKS, GET Book By Id, GET My Orders only and Auth routes
 
 #### Pagination, optimizations and edge cases need to be handled.
