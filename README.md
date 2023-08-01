@@ -1,5 +1,5 @@
 
-#### Installation and Usage
+## Installation and Usage
 1. Install dependencies: `yarn install`
 2. Start a PostgreSQL database with docker using: `docker-compose up -d`. 
     - If you have a local instance of PostgreSQL running, you can skip this step. However you will need to update the `DATABASE_URL` inside the `.env` file with the correct environment variable. 
@@ -12,4 +12,4 @@
 9. Update RabitMQ connection ulr in .env
 10. Customer can access only GET BOOKS, GET Book By Id, GET My Orders only and Auth routes
 
-## Pagination, optimizations and edge cases need to be handled.
+#### Pagination, optimizations and edge cases need to be handled.
